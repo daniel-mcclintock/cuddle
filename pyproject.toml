@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "Cuddle"
+version = "0.1.0"
+description = "An intimate Hug for your PeeWee class"
+authors = ["daniel-mcclintock <13973653+daniel-mcclintock@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+hug = "^2.6.1"
+peewee = "^3.14.10"
+
+[tool.poetry.dev-dependencies]
+black = "^22.1.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 80
